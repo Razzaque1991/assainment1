@@ -89,3 +89,41 @@ body{
 /* banner-end */
 
 /*------------------------------------------ header-end*/
+
+
+/*---------------------------------- card-section-start */
+.card-section{
+    width: 1280px;
+    height: 324px;
+    margin: 80px auto;
+}
+.card-content{
+    display: flex;
+    gap: 24px;
+}
+.card-section .card-heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
+.card1{
+    width: 302px;
+    height: 244px;
+    border: 1px solid rgb(240, 236, 236);
+    border-radius: 10px;
+}
+.card-content .card1{
+    padding: 25px;
+}
+.card1 .card-under-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.card1 .card-pera{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*---------------------------------- card-section-start */
