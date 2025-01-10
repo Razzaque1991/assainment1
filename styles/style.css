@@ -232,7 +232,7 @@ body{
 .yunuss{
     width: 1280px;
     height: 256px;
-    margin: 200px auto;
+    margin: 160px auto;
     border: 1px solid rgb(240, 235, 235);
     border-radius: 10px;
 }
@@ -241,14 +241,14 @@ body{
     background-repeat: no-repeat;
     display: flex;
     justify-content:top left;
-    position: absolute;
+    /* position: absolute; */
     margin-top: 40px;
     margin-left: 20px; 
 }
 
 .yunus-sir{
     padding: 40px;
-    position: relative;
+    /* position: relative; */
 }
 .yunus .sir{
     font-size: 16px;
@@ -266,3 +266,164 @@ font-weight: 600;margin-bottom: 10px;
     color: #0E0E0E;
 }
 /* ----------------------------------------youns-sir-end */
+
+/* --------------------------------------news-section-start */
+.main-section{
+    width: 1280px;
+    height: 120px;
+    margin:0 auto;
+    
+}
+
+.main-news-div .recent{
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+.main-news-div .recent-news{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.left-div .news-img{
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+object-fit: fill;
+border-radius: 15px;
+width: 408px;
+height: 306px;
+}
+.news-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(241, 238, 238);
+    border-radius: 20px;
+    padding: 40px;
+}
+ .year{
+    display: flex;
+    margin: 15px;
+ }
+ 
+
+ .news-content .right-div{
+    width: 744px;
+    height: 290px;
+    color: black;
+    margin: 10px;
+ }
+ .news-img{
+    margin: 10px;
+ }
+
+ .right-div .news-pera{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 15px;
+ }
+
+ .news-btn .btn-news{
+    width: 122px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color:#006A50;
+    margin-top: 20px;
+    color: white;
+ }
+ .btn-news:hover{
+    background-color: aqua;
+ }
+/* --------------------------------------news-section-end */
+
+
+/* -------------------------------------donate-section-start */
+.donate-div{
+    width: 1280px;
+    height: 464px;
+    text-align: center;
+    margin: 400px auto;
+}
+.donate-div .donate-heading{
+font-size: 40px;
+font-weight: bold;
+color: #0E0E0E;
+}
+
+.donate-div .donate-pera{
+    font-size:16px ;
+    font-weight:400 ;
+    color: #0E0E0E;
+}
+
+.donate-container .one, .two, .three, .four{
+    width: 240px;
+    height: 128px;
+    border: 1px solid rgb(168, 163, 163);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.one{
+ background-color: green;
+}
+.one:hover{
+    background-color: gray;; 
+}
+.two{
+    background-color: gray;
+}
+.two:hover{
+    background-color: green;
+}
+.three{
+    background-color: #5490F5;
+}
+.three:hover{
+    background-color: #062e72;
+}
+.four{
+    background-color: #eec86f;
+}
+.four:hover{
+    background-color: #1b1403;
+    color: white;
+}
+.donate-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input .taka {
+    width: 956px;
+    height: 45px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 15px auto;
+    border: 1px solid rgb(231, 225, 225);
+}
+.input-btn .btn-input{
+    width: 122px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color:#006A50;
+    margin-top: 20px;
+    color: white;
+}
+.input-btn .btn-input:hover{
+    background-color: #81B4FC;
+    color: #062e72;
+}
+ 
+/* -------------------------------------donate-section-start */
