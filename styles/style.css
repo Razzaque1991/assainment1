@@ -92,16 +92,16 @@ body{
 
 
 /*---------------------------------- card-section-start */
-.card-section{
+.card-section, .card-section2{
     width: 1280px;
     height: 324px;
     margin: 80px auto;
 }
-.card-content{
+.card-content, .card-content2{
     display: flex;
     gap: 24px;
 }
-.card-section .card-heading{
+.card-section .card-heading, .card-heading2{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -127,3 +127,102 @@ body{
 }
 
 /*---------------------------------- card-section-start */
+
+/*---------------------------------------- second-card-start */
+.card-content2 .card-green{
+    width: 410px;
+    height: 325px;
+    background-color: #adbbd3;
+}
+.card-content2 .card-gray{
+    width: 410px;
+    height: 325px;
+    background-color: #81B4FC;
+}
+.card-content2 .card-pink{
+    width: 410px;
+    height: 325px;
+    background-color: #eec86f;
+}
+.card-green,.card-gray, .card-pink{
+    padding: 25px;
+    border-radius: 15px; 
+}
+.card-green .card-under-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.card-gray .card-under-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.card-pink .card-under-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.card-section2 .heading-pera{
+    font-size: 16px;
+    font-weight: 400; 
+    margin-bottom: 24px;
+}
+.card-green .card-pera{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card-gray .card-pera{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card-pink .card-pera{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.btn-green .green-btn{
+    width: 122px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5490F5;
+    margin-top: 10px;
+    color: white;
+}
+.btn-gray .gray-btn{
+    width: 122px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    margin-top: 10px;
+    color: white;
+}
+.btn-pink .pink-btn{
+    width: 122px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(202, 190, 13);
+    margin-top: 10px;
+    color: white;
+}
+.btn-green .green-btn:hover{
+    background-color: green;
+    color: white;
+}
+.btn-gray .gray-btn:hover{
+    background-color: #5490F5;
+    color: white;
+}
+.btn-pink .pink-btn:hover{
+    background-color: #0c59df;
+    color: white;
+}
+
+/*---------------------------------------- second-card-end */
