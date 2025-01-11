@@ -242,7 +242,7 @@ body{
     display: flex;
     justify-content:top left;
     /* position: absolute; */
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-left: 20px; 
 }
 
@@ -347,7 +347,7 @@ height: 306px;
     width: 1280px;
     height: 464px;
     text-align: center;
-    margin: 400px auto;
+    margin: 400px auto 0;
 }
 .donate-div .donate-heading{
 font-size: 40px;
@@ -427,3 +427,54 @@ color: #0E0E0E;
 }
  
 /* -------------------------------------donate-section-start */
+
+/* ------------------------------------footer-section-start */
+.subscriber-div {
+    width: 1280px;
+    height: 395px;
+    background-color: #C6E4D6;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+.subscriber-div .sub-heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+ .subscriber-div .sub-pera{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+ }
+ .input-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.foot-input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+ }
+ .input-btn1 {
+    width: 125px;
+    height: 40px;
+    background: #006A50;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    margin-left: -3px;
+}
+.input-btn1:hover {
+    background-color: gray;
+    color:black;
+}
+
+ .subtitle{
+    margin-top: 20px;
+ }
+/* ------------------------------------footer-section-end */
